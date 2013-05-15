@@ -1,0 +1,10 @@
+TypeNumber/Constants_real.h
+TypeNumber/Constants_fake.h
+TypeNumber/Sanitizer.ini
+TypeNumber/TypeNumber-Info.plist.backup
+
+
+/TypeNumber.xcodeproj/xcuserdata/
+/TypeNumber.xcodeproj/project.xcworkspace/
+/TypeNumber/discardedButtonCode
+.DS_Store
