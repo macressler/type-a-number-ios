@@ -103,19 +103,19 @@
 		494FF770173DB78C0099295C /* games_controller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = games_controller.png; sourceTree = "<group>"; };
 		494FF771173DB78D0099295C /* games_controller@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "games_controller@2x.png"; sourceTree = "<group>"; };
 		4978B453162F34B100C33E8B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		4978B45C162F38D000C33E8B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = "<group>"; };
+		4978B45C162F38D000C33E8B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		497D42EB16C306C000784B3C /* PeopleListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleListTVC.h; sourceTree = "<group>"; };
 		497D42EC16C306C000784B3C /* PeopleListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleListTVC.m; sourceTree = "<group>"; };
-		498E4EAA16A7028600C9FF2A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
-		499E31081739B441003CFF53 /* icon_typeanumber_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_typeanumber_small.png; path = ../../icon_typeanumber_small.png; sourceTree = "<group>"; };
-		499E310C1739B4B9003CFF53 /* icon_typeanumber_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_typeanumber_small@2x.png"; path = "../../icon_typeanumber_small@2x.png"; sourceTree = "<group>"; };
-		499E310E1739B4D6003CFF53 /* icon_typeanumber_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_typeanumber_ipad.png; path = ../../icon_typeanumber_ipad.png; sourceTree = "<group>"; };
-		499E31101739B4ED003CFF53 /* icon_typeanumber_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_typeanumber_ipad@2x.png"; path = "../../icon_typeanumber_ipad@2x.png"; sourceTree = "<group>"; };
+		498E4EAA16A7028600C9FF2A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		499E31081739B441003CFF53 /* icon_typeanumber_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_typeanumber_small.png; sourceTree = "<group>"; };
+		499E310C1739B4B9003CFF53 /* icon_typeanumber_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_typeanumber_small@2x.png"; sourceTree = "<group>"; };
+		499E310E1739B4D6003CFF53 /* icon_typeanumber_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_typeanumber_ipad.png; sourceTree = "<group>"; };
+		499E31101739B4ED003CFF53 /* icon_typeanumber_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_typeanumber_ipad@2x.png"; sourceTree = "<group>"; };
 		49B36FF61737508A007F7ECE /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
 		49B36FF8173750C2007F7ECE /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
 		49B5381116126AA500483CC1 /* LeaderboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardManager.h; sourceTree = "<group>"; };
 		49B5381216126AA500483CC1 /* LeaderboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardManager.m; sourceTree = "<group>"; };
-		49BC7FFB1672872C00780DAD /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		49BC7FFB1672872C00780DAD /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		49D93816173D8F41006E9966 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 

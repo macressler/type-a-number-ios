@@ -43,11 +43,8 @@
 {
   [super viewDidLoad];
 
-  GTLServicePlus* plusService = [[GTLServicePlus alloc] init];
-  plusService.retryEnabled = YES;
-
-  GPPSignIn *signIn = [GPPSignIn sharedInstance];
-  [plusService setAuthorizer: signIn.authentication];
+  GTLServicePlus* plusService = [[GPPSignIn sharedInstance] plusService];
+  
   GTLQueryPlus *query = [GTLQueryPlus queryForPeopleListWithUserId:@"me"
                                                         collection:@"visible"];
   
