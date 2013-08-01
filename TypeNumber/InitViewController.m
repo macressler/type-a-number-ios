@@ -188,27 +188,28 @@
 
 -(void)achievementViewControllerDidFinish:(GPGAchievementController *)viewController
 {
-  [self dismissModalViewControllerAnimated:YES];
+  [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (IBAction)showAchievements:(UIButton *)sender {
   GPGAchievementController *achController = [[GPGAchievementController alloc] init];
   achController.achievementDelegate = self;
-  [self presentModalViewController:achController animated:YES];
+  [self presentViewController:achController animated:YES completion:nil];
+  
 }
 
 # pragma mark - Leaderboards handling
 
 -(void)leaderboardsViewControllerDidFinish:(GPGLeaderboardsController *)viewController
 {
-  [self dismissModalViewControllerAnimated:YES];
+  [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (IBAction)showAllLeaderboards:(UIButton *)sender {
   
   GPGLeaderboardsController *allLeadsController = [[GPGLeaderboardsController alloc] init];
   allLeadsController.leaderboardsDelegate = self;
-  [self presentModalViewController:allLeadsController animated:YES];
+  [self presentViewController:allLeadsController animated:YES completion:nil];
 }
 
 

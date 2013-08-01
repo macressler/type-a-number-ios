@@ -43,9 +43,15 @@
   
   GPGAchievement *incrementMe = [GPGAchievement achievementWithId:achievementId];
   
+
+  
   [incrementMe incrementAchievementNumSteps:progressAmount completionHandler:^(BOOL newlyUnlocked, int currentSteps, NSError *error) {
     if (error) {
       NSLog(@"Received an error attempting to increment achievement %@: %@",incrementMe, error);
+    } else if (newlyUnlocked) {
+      NSLog(@"Incremental achievement unlocked!");
+    } else {
+      NSLog(@"You've completed %i steps total", currentSteps);
     }
   }];
 }

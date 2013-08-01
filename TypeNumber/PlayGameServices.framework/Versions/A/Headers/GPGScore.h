@@ -23,10 +23,13 @@ typedef void (^GPGScoreBatchReportBlock)(NSError *error);
 @property (nonatomic, readwrite, assign) unsigned long long value;
 
 #pragma mark Actions 
-- (void)submitScoreWithCompletionHandler:(GPGScoreReportScoreBlock)completionHandler;
+- (BOOL)submitScoreWithCompletionHandler:(GPGScoreReportScoreBlock)completionHandler;
 
 + (void)submitScores:(NSArray *)scores
-    withCompletionHandler:(GPGScoreBatchReportBlock)completionHandler;
+    withCompletionHandler:(GPGScoreBatchReportBlock)completionHandler __attribute__((deprecated));
+
++ (void)batchSubmitScores:(NSArray *)scores
+    withCompletionHandler:(GPGScoreReportScoreBlock)completionHandler;
 
 #pragma mark Post-Load Results 
 @property (nonatomic, readonly, copy) NSString *formattedRank;

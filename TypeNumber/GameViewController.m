@@ -160,7 +160,7 @@
 
 -(void)leaderboardViewControllerDidFinish:(GPGLeaderboardController *)viewController
 {
-  [self dismissModalViewControllerAnimated:YES];
+  [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (IBAction)bragButtonClicked:(id)sender {
@@ -215,7 +215,7 @@
   
   GPGLeaderboardController *thisLevelLeaderboard = [[GPGLeaderboardController alloc] initWithLeaderboardId:targetLeaderboardId];
   thisLevelLeaderboard.leaderboardDelegate = self;
-  [self presentModalViewController:thisLevelLeaderboard animated:YES];
+  [self presentViewController:thisLevelLeaderboard animated:YES completion:nil];
 }
 
 

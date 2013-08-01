@@ -10,7 +10,6 @@
 @class GPGScore, GPGLocalPlayerScore;
 
 typedef void (^GPGLeaderboardLoadScoresBlock)(NSArray *scores, NSError *error);
-typedef void (^GPGLeaderboardResetScoresHandler)(NSError *error);
 
 @interface GPGLeaderboard : NSObject
 
@@ -36,7 +35,6 @@ typedef void (^GPGLeaderboardResetScoresHandler)(NSError *error);
 - (void)loadNextPageOfScoresWithCompletionHandler:(GPGLeaderboardLoadScoresBlock)completionHandler;
 
 - (void)loadPreviousPageOfScoresWithCompletionHandler:(GPGLeaderboardLoadScoresBlock)completionHandler;
-
 
 #pragma mark In-Flight Status 
 

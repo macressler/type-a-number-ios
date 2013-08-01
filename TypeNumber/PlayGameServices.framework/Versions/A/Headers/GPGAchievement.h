@@ -12,7 +12,6 @@ typedef void (^GPGAchievementDidIncrementBlock)(
     BOOL newlyUnlocked, int currentSteps, NSError *error);
 typedef void (^GPGAchievementDidRevealBlock)(GPGAchievementState state, NSError *error);
 
-
 @interface GPGAchievement : NSObject
 
 // Designated initializer.
@@ -36,7 +35,5 @@ typedef void (^GPGAchievementDidRevealBlock)(GPGAchievementState state, NSError 
 
 - (void)incrementAchievementNumSteps:(NSInteger)steps
                    completionHandler:(GPGAchievementDidIncrementBlock)completionHandler;
-
-
 
 @end

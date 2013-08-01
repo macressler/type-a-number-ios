@@ -5,8 +5,6 @@
 
 #import <Foundation/Foundation.h>
 
-@class GPGApplicationModel;
-
 typedef void (^GPGModelDidLoadBlock)(NSError *error);
 
 @interface GPGKeyedModel : NSObject

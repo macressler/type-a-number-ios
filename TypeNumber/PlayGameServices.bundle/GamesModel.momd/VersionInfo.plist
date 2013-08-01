@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>NSManagedObjectModel_CurrentVersionName</key>
-	<string>GamesModel 7</string>
+	<string>GamesModel 8</string>
 	<key>NSManagedObjectModel_VersionHashes</key>
 	<dict>
 		<key>GamesModel</key>
@@ -529,6 +529,69 @@
 			<key>GPGCoreDataScoreReport</key>
 			<data>
 			8LuVSBLObQFw0Kg8GCzX6UnKVYo2BjXGt1YtA4IQF8s=
+			</data>
+		</dict>
+		<key>GamesModel 8</key>
+		<dict>
+			<key>GPGCoreDataAchievement</key>
+			<data>
+			hbbo509yzqXKun7hZ3RagD6de12chaC9VCF6aswEOj0=
+			</data>
+			<key>GPGCoreDataAppState</key>
+			<data>
+			RYpNUjDf3PIjQ7MmrHydD8PYPyt5mBhqrSPMjIhbuOc=
+			</data>
+			<key>GPGCoreDataGame</key>
+			<data>
+			fOjxaETBuKFQEKDww1AQz4ycO1YbzoY3E9pX+7KYobo=
+			</data>
+			<key>GPGCoreDataGameAsset</key>
+			<data>
+			XKgzGRE+FhcbyvPwivaRKOUWkIXVOfMGdMk35lKLtnY=
+			</data>
+			<key>GPGCoreDataGameInstance</key>
+			<data>
+			KtMtBWgtHz1IwU8Rtf55dOjx5VlFZIS/O0lzuOkJOG8=
+			</data>
+			<key>GPGCoreDataLeaderboard</key>
+			<data>
+			JcrONSGnWwqMQqujHeEGliamrMHuaVpKyBJjIoMzCe0=
+			</data>
+			<key>GPGCoreDataMetadata</key>
+			<data>
+			G2Gvga7wLQdwhUuRry4Vs7iQSx1fFCDAQaSMki7G290=
+			</data>
+			<key>GPGCoreDataMultiplayerAutoMatchCriteria</key>
+			<data>
+			R4ggYd8FLmkCbGfK3MkZVEYGWRc4LVXoJE7UjErULxU=
+			</data>
+			<key>GPGCoreDataMultiplayerAutoMatchPlayer</key>
+			<data>
+			XknorrK7H5plhGF4uMTabvJhaFhH7J1o94gB1ULrSSo=
+			</data>
+			<key>GPGCoreDataMultiplayerCreationDetails</key>
+			<data>
+			PDtRpWrLoQGk+BJ65F6FHBy3URV6+pZW0DZ+70XTn5Q=
+			</data>
+			<key>GPGCoreDataMultiplayerMatch</key>
+			<data>
+			9M7d4Ba84e267UNcCOZbmX9M95kT4tB5ejJF5D+xMwo=
+			</data>
+			<key>GPGCoreDataMultiplayerPlayer</key>
+			<data>
+			0cC5dC/dySj5LbgEzIcMZTsEvz5LnwQ+e7EGRNTFKPo=
+			</data>
+			<key>GPGCoreDataMultiplayerPlayerResult</key>
+			<data>
+			PYjA5Efu5E1XzXxniy5XK62QHIHfnWi3s2HlDwLjLDw=
+			</data>
+			<key>GPGCoreDataMultiplayerUpdateDetails</key>
+			<data>
+			qs9J2dWa8q8u6vn7SH8fEq0RTF12auIPi16inecToiI=
+			</data>
+			<key>GPGCoreDataPlayer</key>
+			<data>
+			F1PNkTcVpcNCe9Knsulj8zWNPdVQ7y0qx7rpMwqVq3g=
 			</data>
 		</dict>
 	</dict>

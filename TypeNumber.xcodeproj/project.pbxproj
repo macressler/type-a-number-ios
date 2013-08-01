@@ -55,6 +55,8 @@
 		49B5381316126AA500483CC1 /* LeaderboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B5381216126AA500483CC1 /* LeaderboardManager.m */; };
 		49BC7FFC1672872C00780DAD /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BC7FFB1672872C00780DAD /* Default-Portrait~ipad.png */; };
 		49D93817173D8F41006E9966 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 49D93816173D8F41006E9966 /* README.md */; };
+		49F3E1E81793C316003DBEF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F3E1E71793C316003DBEF5 /* QuartzCore.framework */; };
+		49F3E1EA1793C33C003DBEF5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F3E1E91793C33C003DBEF5 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +119,8 @@
 		49B5381216126AA500483CC1 /* LeaderboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardManager.m; sourceTree = "<group>"; };
 		49BC7FFB1672872C00780DAD /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		49D93816173D8F41006E9966 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		49F3E1E71793C316003DBEF5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		49F3E1E91793C33C003DBEF5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F3E1EA1793C33C003DBEF5 /* CoreText.framework in Frameworks */,
+				49F3E1E81793C316003DBEF5 /* QuartzCore.framework in Frameworks */,
 				492EE196161107C2007421AE /* SystemConfiguration.framework in Frameworks */,
 				492EE194161107BD007421AE /* Security.framework in Frameworks */,
 				492EE192161107B7007421AE /* CoreData.framework in Frameworks */,
@@ -175,6 +181,8 @@
 		492EE162161104EC007421AE = {
 			isa = PBXGroup;
 			children = (
+				49F3E1E91793C33C003DBEF5 /* CoreText.framework */,
+				49F3E1E71793C316003DBEF5 /* QuartzCore.framework */,
 				494FF75A173DAE810099295C /* LICENSE */,
 				49D93816173D8F41006E9966 /* README.md */,
 				492EE20316110869007421AE /* Resources */,
@@ -496,7 +504,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -520,7 +528,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -539,7 +547,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TypeNumber/TypeNumber-Prefix.pch";
 				INFOPLIST_FILE = "TypeNumber/TypeNumber-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TypeNumber\"",
@@ -566,7 +574,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TypeNumber/TypeNumber-Prefix.pch";
 				INFOPLIST_FILE = "TypeNumber/TypeNumber-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TypeNumber\"",
