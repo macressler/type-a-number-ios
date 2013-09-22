@@ -45,7 +45,7 @@ this game on your own.
 ## Running the sample application
 
 To run the Type-a-Number Challenge on your own device, you will need to create
-your own version of the game in the Plœay Console. Once you have done that,
+your own version of the game in the Play Console. Once you have done that,
 you will create achievements and leaderboards for this game, then copy over
 all client IDs, achievement IDs and leaderboard IDs to your own
 `Constants.h` file. To follow this process, perform the following steps:
@@ -53,7 +53,7 @@ all client IDs, achievement IDs and leaderboard IDs to your own
 1. Open up your TypeNumber project settings. Select the "TypeNumber" target and,
   on the "Summary" tab, change the Bundle Identifier from `com.example.TypeNumber` to
   something appropriate for your Provisioning Profile. (It will probably look like
-  com.<your_company>.TypeNumber)
+  `com.<your_company>.TypeNumber`)
     * If you plan on only running this on an emulator, you can leave it as-is.
 2. Click the "Info" tab and go down to the bottom where you see "URL Types". Expand
   this and change the "Identifier" and "URL Schemes" from `com.example.TypeNumber` to
